@@ -8,9 +8,22 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/rgb.h>
-#sensor-binding-cells = <0>
 
 / {
+    behaviors {
+        rgb_brightness: rgb_brightness {
+            compatible = "zmk,behavior-sensor-rotate";
+            label = "RGB_BRIGHTNESS";
+            #sensor-binding-cells = <0>;
+            bindings = <&rgb_ug RGB_BRI>, <&rgb_ug RGB_BRD>;
+        };
+        rgb_hue: rgb_hue {
+            compatible = "zmk,behavior-sensor-rotate";
+            label = "RGB_HUE";
+            #sensor-binding-cells = <0>;
+            bindings = <&rgb_ug RGB_HUI>, <&rgb_ug RGB_HUD>;
+        };
+    };
 
     keymap {
         compatible = "zmk,keymap";
@@ -48,7 +61,7 @@
             &trans   &trans   &trans    &trans  &trans              &trans   &kp LEFT   &kp DOWN    &kp RIGHT  &trans
             >;
 
-            sensor-bindings = <&rgb_ug RGB_BRI RGB_BRD &rgb_ug RGB_SAI RGB_SAD>;
+            sensor-bindings = <&rgb_brughtness &rgb_saturation>;
 
         }; 
         
