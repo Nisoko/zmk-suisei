@@ -10,20 +10,7 @@
 #include <dt-bindings/zmk/rgb.h>
 
 / {
-    behaviors {
-        rgb_brightness: rgb_brightness {
-            compatible = "zmk,behavior-sensor-rotate";
-            label = "RGB_BRIGHTNESS";
-            #sensor-binding-cells = <0>;
-            bindings = <&rgb_ug RGB_BRI>, <&rgb_ug RGB_BRD>;
-        };
-        rgb_hue: rgb_hue {
-            compatible = "zmk,behavior-sensor-rotate";
-            label = "RGB_HUE";
-            #sensor-binding-cells = <0>;
-            bindings = <&rgb_ug RGB_HUI>, <&rgb_ug RGB_HUD>;
-        };
-    };
+   
 
     keymap {
         compatible = "zmk,keymap";
@@ -39,6 +26,8 @@
             &kp TAB   &kp A &kp S &kp D &kp F &kp G                                                &kp H &kp J  &kp K     &kp L   &kp SEMI &kp SQT
             &kp LSHFT &kp Z &kp X &kp C &kp V &kp B &kp LALT &kp RET       &kp TAB &kp DEL &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp RSHFT
             &trans &kp LCTRL &kp LGUI &kp SPACE &mo 1       &mo 2  &kp SPACE  &kp BSPC &kp RCTRL &trans
+
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
             >;
 
         };
