@@ -59,7 +59,7 @@
             &trans  &trans  &trans   &trans   &kp N  &kp V                 &kp N  &kp V  &trans   &trans   &trans  &trans
            &trans  &trans  &trans   &trans   &trans  &trans                 &trans   &trans  &trans   &trans   &trans  &trans
             &trans   &trans   &kp U   &kp Y   &kp T  &kp R  &trans  &trans                                    &trans   &trans   &kp U   &kp Y   &kp T  &kp R  &trans  &trans
-            &trans   &trans   &trans    &trans  &to 1              &trans   &trans   &trans    &trans  &trans
+            &trans   &trans   &trans    &trans  &to 0              &trans   &trans   &trans    &trans  &trans
             >;
 
             sensor-bindings = <&inc_dec_kp N8 N7 &inc_dec_kp N3 N4>;
