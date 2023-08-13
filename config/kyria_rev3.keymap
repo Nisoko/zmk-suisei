@@ -56,9 +56,9 @@
         
         sdvx_layer {
             bindings = <
-            &trans  &trans  &trans   &trans   &kp N  &kp V                 &kp N  &kp V  &trans   &trans   &trans  &trans
+            &kp RET  &trans  &trans   &trans   &kp N  &kp V                 &kp N  &kp V  &trans   &trans   &trans  &trans
            &trans  &trans  &trans   &trans   &trans  &trans                 &trans   &trans  &trans   &trans   &trans  &trans
-            &trans   &trans   &kp U   &kp Y   &kp T  &kp R  &trans  &trans                                    &trans   &trans   &kp U   &kp Y   &kp T  &kp R  &trans  &trans
+            &trans   &trans   &kp U   &kp Y   &kp T  &kp R  &trans  &trans                                    &trans   &trans   &kp U   &kp Y   &kp T  &kp R  &trans  &kp ESC
             &trans   &trans   &trans    &trans  &to 0              &trans   &trans   &trans    &trans  &trans
             >;
 
