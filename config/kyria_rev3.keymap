@@ -72,7 +72,7 @@
              &trans   &trans   &trans   &trans   &trans  &trans                                            &trans   &trans   &trans   &trans   &trans  &trans
             &trans   &trans   &trans   &trans   &trans  &trans  &trans  &trans                                    &trans  &trans    &kp UP   &kp END   &trans   &trans   &trans  &trans
             &trans   &trans   &trans    &trans  &trans              &trans   &kp LEFT   &kp DOWN    &kp RIGHT &to 0
-            >;
+            >; 
 
 
         }; 
