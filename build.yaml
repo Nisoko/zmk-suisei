@@ -14,6 +14,6 @@
 ---
 include:
   - board: nice_nano//zmk
-    shield: kyria_rev3_left
+    shield: kyria_rev3_left//zmk
   - board: nice_nano//zmk
-    shield: kyria_rev3_right
+    shield: kyria_rev3_right//zmk
