@@ -66,12 +66,12 @@
 
         }; 
         
-        2xko {
+        twoxko_layer {
             bindings = <
              &trans   &trans   &trans   &trans   &trans  &trans                  &trans   &trans   &trans   &trans   &trans  &trans
-             &trans   &trans   &trans   &trans   &trans  &kp g                                            &trans   &trans   &trans   &trans   &trans  &trans
-            &trans   &trans   &trans   &trans   &trans  &trans  &trans  &trans                                    &trans  &trans    &kp UP   &kp END   &trans   &trans   &trans  &trans
-            &trans   &trans   &trans    &trans  &trans              &m   &kp COMMA   &kp DOT    &kp RIGHT &to 0
+             &trans   &trans   &trans   &trans   &trans  &trans                                            &trans   &trans   &trans   &trans   &trans  &trans
+            &trans   &trans   &trans   &trans   &trans  &trans  &trans  &trans                                    &trans  &trans    &trans   &trans   &trans   &trans   &trans  &trans
+            &trans   &trans   &trans    &trans  &trans              &M   &kp COMMA   &kp DOT    &kp RIGHT &to 0
             >; 
 
 
