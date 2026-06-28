@@ -66,12 +66,12 @@
 
         }; 
         
-        arrow_key_layer {
+        2xko {
             bindings = <
              &trans   &trans   &trans   &trans   &trans  &trans                  &trans   &trans   &trans   &trans   &trans  &trans
              &trans   &trans   &trans   &trans   &trans  &kp g                                            &trans   &trans   &trans   &trans   &trans  &trans
             &trans   &trans   &trans   &trans   &trans  &trans  &trans  &trans                                    &trans  &trans    &kp UP   &kp END   &trans   &trans   &trans  &trans
-            &trans   &trans   &trans    &trans  &trans              &trans   &kp LEFT   &kp DOWN    &kp RIGHT &to 0
+            &trans   &trans   &trans    &trans  &trans              &m   &kp ,   &kp .    &kp RIGHT &to 0
             >; 
 
 
