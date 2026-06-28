@@ -71,7 +71,7 @@
              &trans   &trans   &trans   &trans   &trans  &trans                  &trans   &trans   &trans   &trans   &trans  &trans
              &trans   &trans   &trans   &trans   &trans  &trans                                            &trans   &trans   &trans   &trans   &trans  &trans
             &trans   &trans   &trans   &trans   &trans  &trans  &trans  &trans                                    &trans  &trans    &trans   &trans   &trans   &trans   &trans  &trans
-            &trans   &trans   &trans    &trans  &trans              &M   &kp COMMA   &kp DOT    &kp RIGHT &to 0
+            &trans   &trans   &trans    &trans  &trans              &kp M   &kp COMMA   &kp DOT &trans &to 0
             >; 
 
 
